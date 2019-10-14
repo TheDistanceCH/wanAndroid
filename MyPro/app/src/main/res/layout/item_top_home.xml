@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="3dp">
+
+
+    <TextView
+        android:textColor="@color/colorRed"
+        android:id="@+id/tv_item_top_home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/tv_home_top_bg"
+        android:text="置顶"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_toRightOf="@+id/tv_item_top_home"
+        android:id="@+id/tv_item_new_home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorOrange"
+        android:background="@drawable/tv_home_new_bg"
+        android:text="新"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_item_new_home"
+        android:id="@+id/tv_item_tag_home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlue"
+        android:background="@drawable/tv_home_tag_bg"
+        android:text="问答"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_item_part_home"
+        android:text="问答/官方"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_item_title_home"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_item_part_home"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="@color/colorBlack"
+        android:text="每日一问 为什么Android app module下的R.java中变量为final，而lib module中R.java中的变量非final呢？"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_item_collect_home"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_img_collect_sel"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_item_title_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/tv_item_author_home"
+        android:gravity="center_vertical"
+        android:textSize="10dp"
+        android:text="鸿洋"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_item_title_home"
+        android:layout_toRightOf="@+id/img_item_collect_home"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/tv_item_time_home"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_item_title_home"
+        android:text="10分钟前"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+</RelativeLayout>

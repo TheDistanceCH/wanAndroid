@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E96F5A</color>
+    <color name="colorPrimaryDark">#E96F5A</color>
+    <color name="colorAccent">#E96F5A</color>
+
+
+    <!--主题色-->
+    <color name="colorMain">#ffffff</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+    <!--主页底部的tab的颜色...简书颜色-->
+    <color name="colorBottomTabSel">#E96F5A</color>
+    <color name="colorBottomTabNor">#8a8a8a</color>
+
+
+    <color name="colorRed">#E62212</color>
+    <color name="colorOrange">#E96605</color>
+    <color name="colorBlue">#00A1E0</color>
+
+
+    <color name="colorStart">#E98C5A</color>
+    <color name="colorCenter">#E0773E</color>
+    <color name="colorEnd">#E95037</color>
+
+    <color name="colorEditBg">#ECECEC</color>
+
+
+    <color name="colorGrayStart">#FFFFFF</color>
+    <color name="colorGrayCenter">#F8E7E7E7</color>
+    <color name="colorGrayEnd">#F8D6D6D6</color>
+
+
+    <color name="colorLineStart">#A8A8A8</color>
+    <color name="colorLineCenter">#41E0E0E0</color>
+    <color name="colorLineEnd">#14FFFFFF</color>
+
+    <color name="colorTrant">#41FFFFFF</color>
+</resources>

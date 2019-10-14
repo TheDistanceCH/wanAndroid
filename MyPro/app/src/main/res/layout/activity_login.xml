@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mine.view.LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_title_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/login"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tv_login"
+            android:src="@mipmap/img_user_default" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_tel_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/layout_title_login"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/login_edit_bg">
+
+        <EditText
+            android:id="@+id/edit_tel_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/please_input_tel"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_pwd_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/layout_tel_login"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/login_edit_bg">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/edit_pwd_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/please_input_pwd"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/btn_login"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/layout_pwd_login"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_login_use_bg"
+        android:src="@drawable/ic_img_login_right" />
+
+
+    <TextView
+        android:id="@+id/tv_regist_login"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/go_regist"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

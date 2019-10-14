@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pass_detail.view.PassDetailActivity">
+
+    <include
+        layout="@layout/layout_nor_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_detail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/webview_passdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.tencent.smtt.sdk.WebView>
+
+
+</LinearLayout>

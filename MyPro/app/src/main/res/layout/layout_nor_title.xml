@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/bg_public">
+
+    <!--注意：这里就不能用merge标签了，是个坑，因为merge是使用的父布局，
+    所以这里如果使用merge的话，会导致背景没效果，因为这是标题栏，而真正使用时，
+   是使用父布局即根布局的标签 -->
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:drawableStart="@drawable/ic_img_back"
+        android:drawableLeft="@drawable/ic_img_back"
+        android:gravity="center_vertical"
+        android:text="@string/back"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp" />
+
+
+
+    <TextView
+        android:id="@+id/tv_collect"
+        android:textSize="15dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginStart="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_height="20dp" />
+
+</RelativeLayout>

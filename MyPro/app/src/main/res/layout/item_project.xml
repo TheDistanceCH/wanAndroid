@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_item_project"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="100dp"
+        android:layout_height="178dp" />
+
+    <TextView
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:id="@+id/tv_item_title_project"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"
+        android:text="WanAndroid模块化响应式客户端 很赞"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/img_item_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_item_con_project"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:text="Kotlin + MVVM + 模块化 + 响应式 的WanAndroid客户端，简约优雅。 ## 技术点 * 基于APT和ASM的GRouter路由框架实现模块化通信； * 参考Redux的原理，实现一套事件总线框架； * 封装MVVM和UI"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_item_title_project"
+        android:layout_toLeftOf="@+id/img_item_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_item_collect_project"
+        android:src="@drawable/ic_img_collect_nor"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/tv_item_time_project"
+        android:text="2019-1-1"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/img_item_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:maxLines="1"
+        android:gravity="right"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img_item_collect_project"
+        android:id="@+id/tv_item_name_project"
+        android:text="鸿洋"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:layout_toLeftOf="@+id/tv_item_time_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+
+        android:background="@drawable/line_bg"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

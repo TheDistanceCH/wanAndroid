@@ -1,0 +1,37 @@
+<resources>
+    <!--MainActivity底部的四个tab-->
+    <string name="app_name">学安卓</string>
+    <string name="main_tab_home">首页</string>
+    <string name="main_tab_public">公众号</string>
+    <string name="main_tab_navigation">导航</string>
+    <string name="main_tab_project">项目</string>
+    <string name="main_tab_mine">我的</string>
+    <string name="error_internet_null">网络数据解析为空！</string>
+    <string name="edit_search_null">搜索框不能为空！</string>
+    <string name="tv_navigation">导航</string>
+    <string name="back">返回</string>
+    <string name="collect">已收藏</string>
+    <string name="collect_not">未收藏</string>
+    <string name="sen_info_error">数据传递异常！请重试!</string>
+    <string name="login">登录</string>
+    <string name="please_input_tel">请输入账号</string>
+    <string name="please_input_pwd">输入密码</string>
+    <string name="go_regist">前往注册</string>
+    <string name="regist">注册</string>
+    <string name="input_pwd_again">再次输入密码</string>
+    <string name="regist_can_not_null">输入框不能为空！</string>
+    <string name="tel_not_correct">电话号码格式不正确！</string>
+    <string name="tel_cannot_null">电话号码不能为空！</string>
+    <string name="repeat_send">重新发送</string>
+    <string name="input_cannot_null">输入框不能为空！</string>
+    <string name="pwd_must_more6">密码不低于6位！</string>
+    <string name="pwd_not_equal_repwd">密码不一致！</string>
+    <string name="regist_success">注册成功！</string>
+    <string name="not_login">未登录</string>
+    <string name="login_success">登录成功！</string>
+    <string name="collect_success">收藏成功！</string>
+    <string name="exit_success">退出成功！</string>
+    <string name="about_app">关于</string>
+
+
+</resources>
